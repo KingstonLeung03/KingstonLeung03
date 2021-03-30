@@ -5,18 +5,41 @@ body, html {
 
 #NavBar {
     Width: 100%;
-    height: auto;
+    height: 60px;
+    background-color: #262626;
+    padding: auto;
+
 }
 
 #NavBarList {
+    width: 800px;
+    height: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    float: right;
+
 }
 
 .NavBarText{
-    display: inline-flex;
-    flex-wrap: nowrap;
-    float: right;
+    width: 100px;
+
+}
+
+.NavBarText a{
+
     display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: auto;
+    
+}
+
+.NavBarText a:hover{
+    color: rgb(218, 218, 218);
 }
