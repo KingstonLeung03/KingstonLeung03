@@ -7,7 +7,7 @@ body, html {
     Width: 100%;
     height: 60px;
     background-color: #262626;
-    padding: auto;
+    padding: auto;  
 
 }
 
@@ -22,11 +22,12 @@ body, html {
     align-items: center;
     justify-content: space-evenly;
     float: right;
-
+    height: 100%;
 }
 
 .NavBarText{
     width: 100px;
+
 
 }
 
@@ -36,10 +37,11 @@ body, html {
     color: white;
     text-decoration: none;
     text-align: center;
-    vertical-align: auto;
+
     
 }
 
 .NavBarText a:hover{
     color: rgb(218, 218, 218);
 }
+
