@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#NavBar {
+    Width: 100%;
+    height: auto;
+}
+
+#NavBarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBarText{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    float: right;
+    display: block;
+}
