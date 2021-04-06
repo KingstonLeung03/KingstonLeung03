@@ -45,3 +45,10 @@ body, html {
     color: rgb(218, 218, 218);
 }
 
+  .parallax {
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
