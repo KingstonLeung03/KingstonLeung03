@@ -90,9 +90,11 @@ body, html {
 
 #TitleSection{
     width: 100%;
-    background-image: ;
+    height: 1000px;
+    background-image: url(backgroundimages/IMG_20201209_113638.jpg);
+
 }
 
 #TitleSectionArrow{
-    
+
 }
