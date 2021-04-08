@@ -86,15 +86,17 @@ body, html {
     z-index: 3;
 }
 
-  /* Title Section */
+/* Title Section */
 
 #TitleSection{
     width: 100%;
-    height: 1000px;
-    background-image: url(backgroundimages/IMG_20201209_113638.jpg);
+    border-color: pink;
 
 }
 
 #TitleSectionArrow{
+    width: 20px;
+    height: 10px;
+    border-color: red;
 
 }
