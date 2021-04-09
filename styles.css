@@ -56,6 +56,7 @@ body, html {
     overflow-y: auto;
     -webkit-perspective: 300px;
     perspective: 300px;
+    padding: 0; 
 }
 
 .parallax__group {
@@ -88,15 +89,25 @@ body, html {
 
 /* Title Section */
 
-#TitleSection{
+#TitleSection {
+    width: 100vw;
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+#TitleSectionArrow {
+    width: 45px;
+    height: 50px;
+    background-image: url(backgroundimages/Down.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#TitleSectionImage {
     width: 100%;
-    border-color: pink;
-
+    height: auto;
 }
 
-#TitleSectionArrow{
-    width: 20px;
-    height: 10px;
-    border-color: red;
-
-}
