@@ -30,21 +30,20 @@ body, html {
 .NavBarText{
     width: 100px;
 
-
 }
 
 .NavBarText a{
-
     display: block;
     color: white;
     text-decoration: none;
     text-align: center;
-
-    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
 }
 
-.NavBarText a:hover{
-    color: rgb(218, 218, 218);
+.NavBarText li:hover{
+    color: rgb(170, 170, 170);
 }
 
 /* General Parralax */
@@ -95,19 +94,25 @@ body, html {
     padding: 0;
     margin: 0;
 
-
-}
-
-#TitleSectionArrow {
-    width: 45px;
-    height: 50px;
-    background-image: url(backgroundimages/Down.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 #TitleSectionImage {
     width: 100%;
     height: auto;
+
 }
+
+#TitleSectionArrow {
+    width: 3.5%;
+    height: 3%;
+    background-image: url(backgroundimages/Down.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 49% auto;
+    
+}
+
+
+
+
 
