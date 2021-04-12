@@ -42,8 +42,8 @@ body, html {
     font-size: 15px;
 }
 
-.NavBarText li:hover{
-    color: rgb(170, 170, 170);
+.NavBarText a:hover{
+    color: rgb(219, 219, 219);
 }
 
 /* General Parralax */
@@ -108,9 +108,30 @@ body, html {
     background-image: url(backgroundimages/Down.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 49% auto;
+    margin: 50% auto;
     
 }
+
+/* Content Box */
+
+#ContentBox {
+    background-color: white;
+    margin-top: 53%;
+    height: 500px;
+}
+
+/* Footer */
+
+#Footer {
+    background-color: #262626;
+    height: 436px;
+    margin-top: 86%;
+
+}
+
+
+
+
 
 
 
