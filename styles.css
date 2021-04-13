@@ -10,7 +10,6 @@ body, html {
     height: 60px;
     background-color: #262626;
     padding: auto;  
-
 }
 
 #NavBarList {
@@ -29,7 +28,6 @@ body, html {
 
 .NavBarText{
     width: 100px;
-
 }
 
 .NavBarText a{
@@ -48,42 +46,60 @@ body, html {
 
 /* General Parralax */
 
-.parallax {
+  .parallax {
     height: 500px; /* fallback for older browsers */
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-perspective: 300px;
     perspective: 300px;
-    padding: 0; 
-}
+  }
 
-.parallax__group {
+  .parallax__group {
     position: relative;
-    height: 500px; /* fallback for older browsers */
-    height: 100vh;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-}
+  }
 
-.parallax__layer {
+  .parallax__layer {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-}
+  }
+  
+  .parallax__group {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+  }
 
-.parallax__layer--base {
+
+
+  .parallax__layer--base {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     z-index: 4;
-}
+  }
 
-.parallax__layer--back {
+  .parallax__layer--back {
     -webkit-transform: translateZ(-300px) scale(2);
     transform: translateZ(-300px) scale(2);
     z-index: 3;
+  }
+
+/* Page Specific Parallax */
+
+#IndexGroup1{
+    height: 100vh;
+}
+
+#IndexGroup2{
+    height: 500px;
+}
+
+#IndexGroup3{
+    height: 436px;
 }
 
 /* Title Section */
@@ -93,31 +109,32 @@ body, html {
     border: 0;
     padding: 0;
     margin: 0;
-
 }
 
 #TitleSectionImage {
-    width: 100%;
-    height: auto;
+    height: 100vh;
 
 }
 
 #TitleSectionArrow {
-    width: 3.5%;
-    height: 3%;
-    background-image: url(backgroundimages/Down.png);
+    width: 55px;
+    height: 40px;
+    background: url(backgroundimages/Down.png);
+    background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 50% auto;
-    
+    margin-top: 93vh;    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Content Box */
 
 #ContentBox {
     background-color: white;
-    margin-top: 53%;
+
     height: 500px;
+
 }
 
 /* Footer */
@@ -125,7 +142,7 @@ body, html {
 #Footer {
     background-color: #262626;
     height: 436px;
-    margin-top: 86%;
+
 
 }
 
