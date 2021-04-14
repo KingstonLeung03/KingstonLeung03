@@ -53,6 +53,7 @@ body, html {
     overflow-y: auto;
     -webkit-perspective: 300px;
     perspective: 300px;
+    scroll-behavior: smooth;
   }
 
   .parallax__group {
@@ -113,7 +114,6 @@ body, html {
 
 #TitleSectionImage {
     height: 100vh;
-
 }
 
 #TitleSectionArrow {
@@ -132,9 +132,7 @@ body, html {
 
 #ContentBox {
     background-color: white;
-
     height: 500px;
-
 }
 
 /* Footer */
@@ -142,15 +140,55 @@ body, html {
 #Footer {
     background-color: #262626;
     height: 436px;
-
-
 }
 
+#FooterName{
 
+    border-bottom: 1px solid white;
+    width: 330px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+#FooterName h1{
+    margin: 0;
+}
 
+#FooterFlex {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 80%;
+}
 
+#FooterSocials{
+    width: 400px;
+}
 
+#FooterSocials h2{
+    margin: 0;
+    text-align: left;
+}
 
+#FooterSocials img{
+    width: 50%;
+}
 
+#FooterDescription{
+    text-align: right;
+    width: 325px;
+}
 
+#FooterDescription h2{
+    margin: 0;
+}
 
+#FooterDescription a{
+    text-align: right;
+}
