@@ -28,6 +28,7 @@ body, html {
 
 .NavBarText{
     width: 100px;
+    padding: 3px;
 }
 
 .NavBarText a{
@@ -42,6 +43,10 @@ body, html {
 
 .NavBarText a:hover{
     color: rgb(219, 219, 219);
+}
+
+.NavBarTextActive{
+    border-bottom: 1px solid #589EDE;
 }
 
 /* General Parralax */
@@ -188,7 +193,24 @@ body, html {
 }
 
 #FooterSocials img{
-    width: 200px;
+    margin-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#FooterSocialFlex a{
+    width: min-content;
+    height: min-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+#FooterSocialFlex{
+    display: flex;
+    justify-content: center;
+    width: min-content;
+    vertical-align: middle;
 }
 
 #FooterDescription{
