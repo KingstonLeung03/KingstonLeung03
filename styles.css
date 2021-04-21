@@ -235,3 +235,24 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
+
+/* Profile Title Section */
+
+#TitleSectionText {
+    border: 1px solid white;
+    margin-top: 50vh;    
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 55px;
+
+}
+
+#TitleSectionText h1{
+    margin: 0;
+
+}
+
+#TitleSectionText a{
+
+}
