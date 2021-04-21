@@ -10,6 +10,7 @@ body, html {
     height: 60px;
     background-color: #262626;
     padding: auto;  
+    z-index: 999;
 }
 
 #NavBarList {
@@ -29,6 +30,7 @@ body, html {
 .NavBarText{
     width: 100px;
     padding: 3px;
+
 }
 
 .NavBarText a{
@@ -39,6 +41,7 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 15px;
+
 }
 
 .NavBarText a:hover{
