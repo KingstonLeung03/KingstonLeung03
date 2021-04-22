@@ -143,6 +143,20 @@ body, html {
     height: 500px;
 }
 
+.ContentHeader{
+    left: 50%;
+    width: 350px;
+    text-align: center;
+    top: 15%;
+    position: absolute;
+    transform: translate(-50%, -50%);    
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.ContentHeader h1{
+    margin: 0;
+}
+
 /* Footer */
 
 #Footer {
@@ -263,4 +277,25 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: white;
+}
+
+/* Profile Content Box */
+
+#ProfileFlex {
+    display: flex;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+#ProfileAboutMe {
+
+}
+
+#ProfileImage{
+
+}
+
+#ProfileDetails{
+
 }
