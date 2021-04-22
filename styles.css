@@ -239,20 +239,28 @@ body, html {
 /* Profile Title Section */
 
 #TitleSectionText {
-    border: 1px solid white;
+    border: 2px solid white;
     margin-top: 50vh;    
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 55px;
+    width: 388px;
+    height:min-content;
+    text-align: center;
+
 
 }
 
 #TitleSectionText h1{
     margin: 0;
-
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
 }
 
 #TitleSectionText a{
-
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
 }
