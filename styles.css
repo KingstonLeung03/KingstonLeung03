@@ -99,17 +99,23 @@ body, html {
 
 /* Page Specific Parallax */
 
-#IndexGroup1{
+#Group1{
     height: 100vh;
 }
 
-#IndexGroup2{
-    height: 800px;
-}
-
-#IndexGroup3{
+#Group3{
     height: 436px;
 }
+
+#IndexGroup2{
+    height: 700px;
+}
+
+#ExperienceGroup2{
+    height: 500px;
+}
+
+
 
 /* Title Section */
 
@@ -138,14 +144,19 @@ body, html {
 
 /* Content Box */
 
-#ContentBox {
+#ContentBoxProfile {
     background-color: white;
-    height: 800px;
+    height: 700px;
+}
+
+#ContentBoxExperience {
+    background-color: white;
+    height: 500px;
 }
 
 .ContentHeader{
     left: 50%;
-    width: 350px;
+    width: 300px;
     text-align: center;
     top: 15%;
     position: absolute;
@@ -155,6 +166,9 @@ body, html {
 
 .ContentHeader h1{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
 }
 
 /* Footer */
@@ -283,7 +297,7 @@ body, html {
 
 #ProfileFlex {
     display: flex;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);    
     height: 300px;
@@ -293,34 +307,42 @@ body, html {
 
 #ProfileAboutMe {
     width: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #ProfileAboutMe h2{
     margin-top: 0;
     margin-bottom: 10px;
+    color: #589EDE; 
+    font-weight: 400;
+    font-size: 30px;
 }
 
 #ProfileImage img{
     height: 300px;
     width: auto;
     border-radius: 50%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #ProfileDetails{
     width: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
+    border: 2px solid #589EDE;
+    padding: 10px;
+    height: min-content;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #ProfileDetailsBold {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 #ProfileDetails dl > div {
@@ -336,6 +358,9 @@ body, html {
 
 #ProfileDetails h2{
     margin: 0;
+    color: #589EDE;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 #ProfileDetails dl{
