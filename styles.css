@@ -104,7 +104,7 @@ body, html {
 }
 
 #IndexGroup2{
-    height: 500px;
+    height: 800px;
 }
 
 #IndexGroup3{
@@ -140,7 +140,7 @@ body, html {
 
 #ContentBox {
     background-color: white;
-    height: 500px;
+    height: 800px;
 }
 
 .ContentHeader{
@@ -283,19 +283,61 @@ body, html {
 
 #ProfileFlex {
     display: flex;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);    
+    height: 300px;
+    position: absolute;
+    justify-content: flex-end;
 }
 
 #ProfileAboutMe {
-
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-#ProfileImage{
+#ProfileAboutMe h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
+#ProfileImage img{
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #ProfileDetails{
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
+#ProfileDetailsBold {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ProfileDetails dl > div {
+  display:grid;
+  grid-template:auto / 1fr;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#ProfileDetails dl > div > dd{
+    margin-left: 0;
+}
+
+#ProfileDetails h2{
+    margin: 0;
+}
+
+#ProfileDetails dl{
+    margin: 0;
 }
