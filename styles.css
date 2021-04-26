@@ -151,7 +151,6 @@ body, html {
 }
 
 #ContentBoxExperience {
-    background-color: white;
     height: 1000px;
 }
 
@@ -372,5 +371,11 @@ body, html {
     width: 100%;
     background-color: #262626;
     height: 200px;
+}
 
+#ParallaxBackground{
+    display: flex;
+    top: 30%;
+    position: absolute;
+    width: 100vh;
 }
