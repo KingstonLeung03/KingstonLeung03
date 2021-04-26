@@ -106,7 +106,6 @@ body, html {
 
 #Group3{
     height: 436px;
-    z-index: 2;
 }
 
 #IndexGroup2{
@@ -114,13 +113,7 @@ body, html {
 }
 
 #ExperienceGroup2{
-    height: 200px;
-    z-index: 2;
-}
-
-#ExperienceGroup2-1{
-    height: 1000px;
-    z-index: 1;
+    height: 1500px;
 }
 
 
@@ -158,7 +151,10 @@ body, html {
 }
 
 #ContentBoxExperience {
-    height: 1000px;
+    background-color: white;
+    height: 1500px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ContentHeader{
@@ -384,10 +380,8 @@ body, html {
 
 /* Content */
 
-#ParallaxBackground{
-    display: flex;
-    top: 0;
-
-    height: 100%;
-    justify-content: space-between;
+#ContentBoxExperience img{
+    margin-top: 250px;
+    height: 1500px;
 }
+
