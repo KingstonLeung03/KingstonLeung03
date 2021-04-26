@@ -380,8 +380,69 @@ body, html {
 
 /* Content */
 
-#ContentBoxExperience img{
-    margin-top: 250px;
+#ExperienceImg1 {
+    position: absolute;
+    left: 0;
+    margin-top: 300px;
     height: 1500px;
+    z-index: 1;
 }
+
+#ExperienceImg2{
+    position: absolute;
+    right: 0;
+    margin-top: 325px;
+    height: 1500px;
+    z-index: 1;
+}
+
+#ExperienceFlex1{
+    z-index: 2;
+    height: 300px;
+    top: 15%;
+    position: absolute;
+    width: 100%;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+#ExperienceFlex1 img{
+    height: 300px;
+}
+
+#ExperienceText1{
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 2px solid black;
+    height: 100%;
+}
+
+#ExperienceFlex2{
+    z-index: 2;
+    height: 300px;
+    top: 44%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+#ExperienceFlex2 img{
+    height: 300px;
+    margin-right: 100px;
+}
+
+#ExperienceText2{
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 2px solid black;
+    height: 100%;
+    text-align: right;
+}
+
+
+
 
