@@ -116,7 +116,9 @@ body, html {
     height: 1500px;
 }
 
-
+#SkillsGroup2{
+    height: 750px;
+}
 
 /* Title Section */
 
@@ -155,6 +157,11 @@ body, html {
     height: 1500px;
     display: flex;
     justify-content: space-between;
+}
+
+#ContentBoxSkills {
+    height: 750px;
+    background-color: white;
 }
 
 .ContentHeader{
@@ -378,7 +385,7 @@ body, html {
     height: 200px;
 }
 
-/* Content */
+/* Experience Content */
 
 #ExperienceImg1 {
     position: absolute;
@@ -443,6 +450,16 @@ body, html {
     text-align: right;
 }
 
+/* Skills Content */
 
-
+#SkillsFlex{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    top: 30%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);  
+}
 
