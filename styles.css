@@ -455,11 +455,57 @@ body, html {
 #SkillsFlex{
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     top: 30%;
     position: absolute;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);  
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
 }
 
+#SkillsFlex h2{
+    margin: 0;
+}
+
+#SkillsLanguages{
+    width: 40%;
+    padding: 10px;
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;
+}
+
+#SkillsSkills{
+    width: 40%;
+    padding: 10px;
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;
+}
+
+#SkillsLanguages div{
+    float: right;
+}
+
+#SkillsSkills div{
+    float: right;
+}
+
+#SkillsLanguages a{
+    font-size: 17px;
+}
+
+.RatingSet img{
+    height: 15px;
+}
+
+.HoverOverThing img{
+    transition: 0.3s;
+}
+
+.HoverOverThing:hover img{
+    margin-left: 2px;
+    margin-right: 2px;
+}
