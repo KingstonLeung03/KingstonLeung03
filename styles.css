@@ -120,6 +120,10 @@ body, html {
     height: 750px;
 }
 
+#EducationGroup2{
+    height: 1500px;
+}
+
 /* Title Section */
 
 #TitleSection {
@@ -161,6 +165,11 @@ body, html {
 
 #ContentBoxSkills {
     height: 750px;
+    background-color: white;
+}
+
+#ContentBoxEducation {
+    height: 1500px;
     background-color: white;
 }
 
@@ -508,4 +517,64 @@ body, html {
 .HoverOverThing:hover img{
     margin-left: 2px;
     margin-right: 2px;
+}
+
+/* Education Content */
+
+.EducationFlexClass{
+    height: 400px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.EducationHoverDivs{
+    width: 400px;
+    border: 1px solid black;
+}
+
+.EducationHoverDivs img{
+    height: 300px;
+}
+
+.HoveredDiv{
+    color: transparent;
+    transition: 0.3s;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+
+.HoveredDiv h1{
+    margin: 0;
+    transition: 0.3s;
+}
+
+.HoveredDiv:hover{
+    background-color: #589EDE;
+    opacity: 0.6;
+}
+
+.HoveredDiv:hover h1{
+    color: white;
+    opacity: 1;
+}
+
+#EducationFlex1{
+    margin-top: 15%;
+}
+
+#EducationFlex2{
+    margin-top: 5%;
+}
+
+.HoveredDivLeft{
+    left: 20%;
+}
+
+.HoveredDivRight{
+    left: 80%;
+    transform: translate(-100%, 0); 
 }
