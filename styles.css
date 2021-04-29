@@ -12,6 +12,7 @@ body, html {
     padding: auto;  
     z-index: 999;
     position: fixed;
+    top: 0;
 }
 
 #NavBarList {
@@ -576,6 +577,8 @@ body, html {
     height: 350px;
     width: 335px;
     padding-left: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .HoveredDiv:hover{
@@ -612,4 +615,44 @@ body, html {
 .HoveredDivRight{
     left: 80%;
     transform: translate(-100%, 0); 
+}
+
+/* References Page */
+
+#ReferencesTitleSection{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(backgroundimages/IMG_20200913_160135\ 2.png);
+    min-height:100vh;
+}
+
+#ContentBoxReferences{
+    height: 500px;
+    background-color: white;
+}
+
+#TitleSectionArrowReferences {
+    width: 55px;
+    height: 40px;
+    background: url(backgroundimages/Down.png);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 93vh;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#ContentBoxReferences1{
+    background-image: url(backgroundimages/MeAtCounter1.png);
+    background-attachment: fixed;
+    background-position-x:center;
+    background-position-y: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    opacity: 0.4;
 }
