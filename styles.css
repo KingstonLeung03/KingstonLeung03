@@ -522,7 +522,7 @@ body, html {
 /* Education Content */
 
 .EducationFlexClass{
-    height: 400px;
+    height: 350px;
     display: flex;
     width: 60%;
     justify-content: space-between;
@@ -531,37 +531,70 @@ body, html {
 }
 
 .EducationHoverDivs{
-    width: 400px;
+    width: 350px;
     border: 1px solid black;
+    transition: 0.3s;
+    position: relative;
 }
 
-.EducationHoverDivs img{
-    height: 300px;
+#EdIMG1{
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);  
+    width: 375px;
+    position: absolute;
+}
+
+#EdIMG2{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+    height: 325px;
+    position: absolute;
+}
+
+#EdIMG3{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+    height: 280px;
+    position: absolute;
+}
+
+#EdIMG4{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+    height: 275px;
+    position: absolute;
 }
 
 .HoveredDiv{
     color: transparent;
     transition: 0.3s;
     position: absolute;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 335px;
+    padding-left: 15px;
 }
 
 .HoveredDiv:hover{
-    background-color: #589EDE;
-    opacity: 0.6;
-}
-
-.HoveredDivText {
-    color: transparent;
-    transition: 0.3s;
-    position: absolute;
-    height: 400px;
-    width: 400px;
-}
-
-.HoveredDivText:hover h1{
     color: white;
+    cursor: pointer;
+    background: rgba(88, 158, 222, 0.6);
+}
+
+.HoveredDiv > *{
+    transition: inherit;
+}
+.HoveredDiv > *:not(:last-child){
+    opacity: 0;
+    transform: translateX(80px);
+}
+
+.HoveredDiv:hover > *:not(:last-child){
+    opacity: 1;
+    transform: translateX(0);
 }
 
 #EducationFlex1{
