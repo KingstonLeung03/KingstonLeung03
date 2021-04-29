@@ -547,19 +547,21 @@ body, html {
     width: 400px;
 }
 
-.HoveredDiv h1{
-    margin: 0;
-    transition: 0.3s;
-}
-
 .HoveredDiv:hover{
     background-color: #589EDE;
     opacity: 0.6;
 }
 
-.HoveredDiv:hover h1{
+.HoveredDivText {
+    color: transparent;
+    transition: 0.3s;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+
+.HoveredDivText:hover h1{
     color: white;
-    opacity: 1;
 }
 
 #EducationFlex1{
