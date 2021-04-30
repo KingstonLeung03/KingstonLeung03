@@ -14,11 +14,11 @@
 <div id="NavBar">
     <ul id="NavBarList">
         <li class="NavBarText"><a href="Profile.html">Profile</a></li>
-        <li class="NavBarText NavBarTextActive"><a href="Experience.html">Experience</a></li>
+        <li class="NavBarText"><a href="Experience.html">Experience</a></li>
         <li class="NavBarText"><a href="Skills.html">Skills</a></li>
         <li class="NavBarText"><a href="Education.html">Education</a></li>
         <li class="NavBarText"><a href="References.html">References</a></li>
-        <li class="NavBarText"><a href="Contact.html">Contact</a></li>
+        <li class="NavBarText NavBarTextActive"><a href="Contact.html">Contact</a></li>
     </ul>
 </div>
 <div class="parallax">
@@ -30,21 +30,55 @@
             <div id="TitleSectionArrow"></div>
         </div>
     </div>
-    <div class="parallax__group" id="IndexGroup2">
-        <div id="ContentBox" class="parallax__layer parallax__layer--base"> 
-        
+    <div class="parallax__group" id="ContactGroup2">
+        <div id="ContentBoxContact" class="parallax__layer parallax__layer--base"> 
+            <div class="ContentHeader">
+                <h1>Contact</h1>
+            </div>
+            <div id="ContactFormImageFlex">
+                <div id="ContactForm">
+                    <form action="ContactFormHandler.php" method="post" id="ContactFormStyling">
+                        <input name="name" type="text" class="FormControl" placeholder="Your Name" required>
+                        <input name="email" type="email" class="FormControl" placeholder="Your Email" required>
+                        <textarea name="message" type="text" class="FormControl" placeholder="Message..." rows="7" required></textarea>
+                        <input type="submit" class="FormControl submit" value="Send">
+                    </form>
+                </div>
+                <div id="ContactImage">
+                    <img src="backgroundimages/IMG_20200718_202209.jpg"></img>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="parallax__group" id="IndexGroup3">
+    <div class="parallax__group" id="ContactGroup2-1">
+        <div id="ContactBackgroundSection" class="parallax__layer parallax__layer--back">
+            <img src="backgroundimages/Snapchat-950696228.png"></img>
+        </div>
+        <div id="ContactBoxLinks" class="parallax__layer parallax__layer--base">
+            <div class="ContactBoxCircle">
+                <a href="https://www.instagram.com/kingston.leung_/" target="_blank"><img src="backgroundimages/Instagram.png" style="height: 80px;"></img></a>
+            </div>
+            <div class="ContactBoxCircle">
+                <a href="mailto:l.kingston03@gmail.com" target="_blank"><img src="backgroundimages/Mail.png" style="height: 60px;"></img></a>
+            </div>
+            <div class="ContactBoxCircle">
+                <a href="https://vm.tiktok.com/ZSnYXYd1/" target="_blank"><img src="backgroundimages/Tiktok.png" style=" height: 80px;"></img></a>
+            </div>
+        </div>
+    </div>
+    <div class="parallax_group" id="ContactGroup2-2">
+        <div id="ContentBoxContact2" class="parallax__layer parallax__layer--base"></div>
+    </div>
+    <div class="parallax__group" id="Group3">
         <div id="Footer">
             <div id="FooterName"><h1>Kingston Leung</h1></div>
             <div id="FooterFlex">
                 <div id="FooterSocials">
                     <h2>Social Media & Contacts:</h2>
                     <div id="FooterSocialFlex">
-                        <a href="#"><img src="backgroundimages/Instagram.png" style="height: 56px; width: auto;"></img></a>
-                        <a href="#"><img src="backgroundimages/Mail.png" style="height: 44px; width: auto;"></img></a>
-                        <a href="#"><img src="backgroundimages/Tiktok.png" style="height: 56px; width: auto;"></img></a>
+                        <a href="https://www.instagram.com/kingston.leung_/" target="_blank"><img src="backgroundimages/Instagram.png" style="height: 56px; width: auto;"></img></a>
+                        <a href="mailto:l.kingston03@gmail.com" target="_blank"><img src="backgroundimages/Mail.png" style="height: 44px; width: auto;"></img></a>
+                        <a href="https://vm.tiktok.com/ZSnYXYd1/" target="_blank"><img src="backgroundimages/Tiktok.png" style="height: 56px; width: auto;"></img></a>
                     </div>
                 </div>
                 <div id="FooterDescription">

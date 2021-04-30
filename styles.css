@@ -103,26 +103,47 @@ body, html {
 
 #Group1{
     height: 100vh;
+    z-index: 1;
 }
 
 #Group3{
     height: 436px;
+    z-index: 2;
 }
 
 #IndexGroup2{
     height: 700px;
+    z-index: 2;
 }
 
 #ExperienceGroup2{
     height: 1500px;
+    z-index: 2;
 }
 
 #SkillsGroup2{
     height: 750px;
+    z-index: 2;
 }
 
 #EducationGroup2{
     height: 1500px;
+    z-index: 2;
+}
+
+#ContactGroup2{
+    height: 850px;
+    z-index: 2;
+}
+
+#ContactGroup2-1{
+    height: 400px;
+    z-index: 0;
+}
+
+#ContactGroup2-2{
+    height: 600px;
+    z-index: 2;
 }
 
 /* Title Section */
@@ -662,7 +683,7 @@ body, html {
 }
 
 .ReferencesParallax{
-    opacity: 0.3;
+    opacity: 0.5;
     background-image: url(backgroundimages/MeAtCounter1.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -806,4 +827,111 @@ body, html {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+}
+
+/* Contact Content */
+
+#ContactBackgroundSection{
+    top: -100px;
+    position: absolute;
+    width: 100%;
+}
+
+#ContactBackgroundSection img{
+    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 0;
+}
+
+#ContentBoxContact{
+    height: 850px;
+    background-color: white;
+}
+
+#ContentBoxContact2{
+    position: relative;
+    top: 0;
+    height: 600px;
+    background-color: white;
+}
+
+#ContactBoxLinks{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+}
+
+.ContactBoxCircle{
+    border-radius: 50%;
+    background-color: #262626;
+    height: 150px;
+    width: 150px;
+}
+
+.ContactBoxCircle img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ContactFormImageFlex{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    height: 521px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ContactForm form{
+    display: flex;
+    flex-direction: column;
+}
+
+#ContactFormStyling{
+    transition: all 4s ease-in-out;
+}
+
+#ContactFormStyling textarea{
+    height: 350px;
+}
+
+.FormControl{
+    width: 800px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #589EDE;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+#ContactImage img{
+    height: 521px;
+}
+
+#ContactImage{
+    width: fit-content;
+    margin-left: 100px;
 }
