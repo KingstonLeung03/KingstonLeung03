@@ -113,6 +113,42 @@
         font-size: 15px;
     }
 
+    /* Exoerience Content */
+
+    #ExperienceImg1{
+        left: -70px;
+    }
+
+    #ExperienceImg2{
+        right: -70px;
+    }
+
+    #ExperienceFlex1{
+        height: 250px;
+        padding-left: 60px;
+    }
+
+    #ExperienceFlex1 img{
+        height: 250px;
+    }
+    
+    #ExperienceFlex2{
+        height: 250px;
+    }
+
+    #ExperienceFlex2 img{
+        height: 250px;
+        margin-right: 60px;
+    }
+
+    #ExperienceText1{
+        width: 30%;
+    }
+
+    #ExperienceText2{
+        width: 30%;
+    }
+
 
 
 
