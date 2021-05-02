@@ -469,6 +469,9 @@ body, html {
     padding-left: 30px;
     border-left: 2px solid black;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: black;
 }
 
 #ExperienceFlex2{
@@ -493,6 +496,9 @@ body, html {
     border-right: 2px solid black;
     height: 100%;
     text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: black;
 }
 
 /* Skills Content */
@@ -512,6 +518,8 @@ body, html {
 
 #SkillsFlex h2{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
 #SkillsLanguages{
@@ -544,6 +552,18 @@ body, html {
 
 .RatingSet img{
     height: 15px;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+
+}
+
+.HoverOverThing{
+    transition: 0.3s;
+}
+
+.HoverOverThing:hover{
+    background-color: rgb(192, 192, 192);
 }
 
 .HoverOverThing img{
@@ -553,6 +573,12 @@ body, html {
 .HoverOverThing:hover img{
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.HoverOverThing a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: black;
 }
 
 /* Education Content */
@@ -950,3 +976,29 @@ form .submit{
     margin-left: 100px;
 }
 
+#ContactInfoFlex{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#GoogleMaps{
+    width: 60%;
+    height: 450px;
+    border: 1px solid black;
+}
+
+#LocationAndNumber{
+    width: 35%;
+    padding-left: 20px;
+    border-left: 2px solid black;
+    margin: 0;
+}
+
+#LocationAndNumber div > dd{
+    margin: 0;
+}

@@ -149,6 +149,23 @@
         width: 30%;
     }
 
+    /* Skills Content */
+
+    #SkillsFlex{
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    #SkillsLanguages{
+        padding: 5px;
+    }
+
+    #SkillsSkills{
+        padding: 5px;
+    }
+
+    
+
 
 
 
