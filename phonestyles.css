@@ -1,0 +1,44 @@
+@media only screen and (max-width: 784px){
+
+
+    #Footer{
+        height: 700px;
+    }
+
+    #FooterName{
+        width: 250px;
+    }
+
+    #FooterFlex{
+        flex-direction: column;
+        top: 50%;
+        height: 325px;
+    }
+
+    #FooterSocials{
+        width: 100%;
+    }
+
+    #FooterSocials h2{
+        text-align: center;
+    }
+
+    #FooterSocialFlex{
+        justify-content: center;
+        width: 100%;
+    }
+
+    #FooterDescription{
+        text-align: center;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+
+
+
+
+
+}
