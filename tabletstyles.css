@@ -163,7 +163,47 @@
     #SkillsSkills{
         padding: 5px;
     }
+    
+    /* Education Content */
 
+    .EducationFlexClass{
+        height: 300px;
+        width: 650px;
+    }
+
+    .EducationHoverDivs{
+        width: 300px;
+    }
+
+    #EdIMG1{
+        width: 325px;
+    }
+
+    #EdIMG2{
+        height: 250px;
+    }
+
+    #EdIMG3{
+        height: 230px;
+    }
+
+    #EdIMG4{
+        height: 235px;
+    }
+
+    .HoveredDiv{
+        height: 300px;
+        width: 292px;
+        padding-left: 8px;
+    }
+
+    #EducationFlex2{
+        margin-top: 50px;
+    }
+
+    .HoveredDivContainer{
+        width: 650;
+    }
     
 
 
