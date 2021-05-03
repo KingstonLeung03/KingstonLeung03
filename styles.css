@@ -472,6 +472,15 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     color: black;
+    width: 45%;
+}
+
+#ExperienceText1 h2{
+    margin: 0;
+}
+
+#ExperienceText2 h2{
+    margin: 0;
 }
 
 #ExperienceFlex2{
@@ -499,6 +508,7 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     color: black;
+    width: 45%;
 }
 
 /* Skills Content */
@@ -560,10 +570,6 @@ body, html {
 
 .HoverOverThing{
     transition: 0.3s;
-}
-
-.HoverOverThing:hover{
-    background-color: rgb(192, 192, 192);
 }
 
 .HoverOverThing img{
@@ -760,26 +766,32 @@ body, html {
 .ReferencesText{
     color: #000;
     position: absolute;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 #ReferencesText1{
-    top: 100vh;
+    top: calc(100vh + 100px);
     color: black;
+    left: 10%;
+    width: 500px;
     
 }
 
 #ReferencesText2{
-    top: calc(100vh + 400px);
+    top: calc(100vh + 400px + 100px);
     text-align: right;
     transform: translate(-100%, 0); 
-    left: 100%;
-    width: 300px;
+    left: 90%;
+    width: 500px;
     color: white;
 }
 
 #ReferencesText3{
-    top: calc(100vh + 800px);
+    top: calc(100vh + 800px + 100px);
     color: black;
+    left: 10%;
+    width: 500px;
 }
 
 .ReferencesText h1{
@@ -1023,8 +1035,15 @@ form .submit{
     padding-left: 20px;
     border-left: 2px solid black;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 #LocationAndNumber div > dd{
     margin: 0;
 }
+
+#ContactBold{
+    font-weight: bold;
+}
+
