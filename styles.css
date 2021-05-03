@@ -451,7 +451,7 @@ body, html {
 #ExperienceFlex1{
     z-index: 2;
     height: 300px;
-    top: 15%;
+    top: 20%;
     position: absolute;
     width: 100%;
     padding-left: 100px;
@@ -477,7 +477,7 @@ body, html {
 #ExperienceFlex2{
     z-index: 2;
     height: 300px;
-    top: 44%;
+    top: 55%;
     position: absolute;
     width: 100%;
     display: flex;
@@ -586,7 +586,7 @@ body, html {
 .EducationFlexClass{
     height: 350px;
     display: flex;
-    width: 60%;
+    width: 800px;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
@@ -633,10 +633,34 @@ body, html {
     position: absolute;
 }
 
+#EdIMG1B{
+    background-image: url(backgroundimages/IMG_20210413_165546\ 2.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#EdIMG2B{
+    background-image: url(backgroundimages/IMG_20210413_165546\ 3.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#EdIMG3B{
+    background-image: url(backgroundimages/IMG_20210413_165546\ 5.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#EdIMG4B{
+    background-image: url(backgroundimages/IMG_20210413_165546\ 6.png);
+    background-size: contain;
+    background-position: center;
+}
+
+
 .HoveredDiv{
     color: transparent;
     transition: 0.3s;
-    position: absolute;
     height: 350px;
     width: 335px;
     padding-left: 15px;
@@ -665,20 +689,19 @@ body, html {
 }
 
 #EducationFlex1{
-    margin-top: 15%;
+    margin-top: 250px;
 }
 
 #EducationFlex2{
-    margin-top: 5%;
+    margin-top: 100px;
 }
 
-.HoveredDivLeft{
-    left: 20%;
-}
-
-.HoveredDivRight{
-    left: 80%;
-    transform: translate(-100%, 0); 
+.HoveredDivContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 350px;
+    position: absolute;
 }
 
 /* References Page */
