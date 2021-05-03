@@ -943,11 +943,11 @@ body, html {
 #ContactBoxLinks{
     display: flex;
     justify-content: space-between;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 150px;
+    width: 60%;
 }
 
 .ContactBoxCircle{
@@ -962,6 +962,18 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#ContactIMG1{
+    height: 80px;
+}
+
+#ContactIMG2{
+    height: 60px;
+}
+
+#ContactIMG3{
+    height: 80px;
 }
 
 #ContactFormImageFlex{
@@ -1009,13 +1021,14 @@ form .submit{
 
 }
 
-#ContactImage img{
-    height: 521px;
-}
-
 #ContactImage{
-    width: fit-content;
     margin-left: 100px;
+    background-image: url(backgroundimages/IMG_20200718_202209.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 521px;
+    width: calc(100vw - 800px - 300px);
 }
 
 #ContactInfoFlex{

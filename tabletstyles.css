@@ -204,6 +204,68 @@
     .HoveredDivContainer{
         width: 650;
     }
+
+    /* References Content */
+
+    #ReferencesText1{
+        left: 5%;
+        width: 450px;
+    }
+
+    #ReferencesText2{
+        left: 95%;
+        width: 450px;
+    }
+
+    #ReferencesText3{
+        left: 5%;
+        width: 450px;
+    }
+    
+    .ReferencesText h1{
+        font-size: 25px;
+    }
+
+    .ReferencesText a{
+        font-size: 16px;
+    }
+
+    /* Contact Content */
+
+    #ContactBoxLinks{
+        height: 125px;
+        width: 70%;
+    }
+
+    .ContactBoxCircle{
+        height: 125px;
+        width: 125px;
+    }
+
+    #ContactIMG1{
+        height: 65px;
+    }
+
+    #ContactIMG2{
+        height: 50px;
+    }
+
+    #ContactIMG3{
+        height: 65px;
+    }
+
+    .FormControl{
+        width: 700px;
+    }
+
+    #GoogleMaps{
+        width: 50%;
+    }
+
+    #LocationAndNumber{
+        width: 42%;
+    }
+
     
 
 
