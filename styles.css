@@ -128,7 +128,7 @@ body, html {
 }
 
 #EducationGroup2{
-    height: 1500px;
+    height: 1200px;
     z-index: 2;
 }
 
@@ -181,7 +181,7 @@ body, html {
 
 #ContentBoxExperience {
     background-color: white;
-    height: 1500px;
+    height: 1200px;
     display: flex;
     justify-content: space-between;
 }
@@ -594,9 +594,11 @@ body, html {
 
 .EducationHoverDivs{
     width: 350px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     transition: 0.3s;
     position: relative;
+    background-color: rgb(230, 230, 230);
 }
 
 #EdIMG1{
@@ -640,23 +642,24 @@ body, html {
     padding-left: 15px;
     display: flex;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .HoveredDiv:hover{
     color: white;
     cursor: pointer;
-    background: rgba(88, 158, 222, 0.6);
+    background: rgba(71, 91, 112, 0.6);
 }
 
 .HoveredDiv > *{
     transition: inherit;
 }
-.HoveredDiv > *:not(:last-child){
+.HoveredDiv > *:not(h1){
     opacity: 0;
     transform: translateX(80px);
 }
 
-.HoveredDiv:hover > *:not(:last-child){
+.HoveredDiv:hover > *:not(h1){
     opacity: 1;
     transform: translateX(0);
 }
