@@ -6,12 +6,25 @@ body, html {
 /* NavBar */
 
 
+
+#PhoneViewNav{
+    display: none;
+}
+
+#Hamburger{
+    display: none;
+}
+
+#HamburgerIMG{
+    background: transparent;
+}
+
 #NavBar {
     Width: 100%;
     height: 60px;
     background-color: #262626;
     padding: auto;  
-    z-index: 999;
+    z-index: 20;
     position: fixed;
     top: 0;
 }
