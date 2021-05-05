@@ -130,6 +130,14 @@
         height: 1000px;
     }
 
+    #TitleSectionText{
+        width: 300px;
+    }
+
+    #TitleSection a{
+        margin-bottom: 30px;
+    }
+
     #ProfileFlex{
         flex-direction: column;
         top: 55%;
@@ -156,9 +164,176 @@
         margin-bottom: 10px;
     }
 
+    /* Experience Content */
 
+    #ExperienceImg1{
+        display: none;
+    }
 
+    #ExperienceImg2{
+        display: none;
+    }
 
+    #ExperienceFlex1{
+        height: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+        padding: 0;
+    }
+
+    #ExperienceText1{
+        margin-top: 30px;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-left: none;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        width: 300px;
+    }
+
+    #ExperienceFlex2{
+        top: 70%;
+        width: fit-content;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0;
+    }
+
+    #ExperienceFlex2 img{
+        margin: 0;
+    }
+
+    #ExperienceText2{
+        margin-top: 30px;
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        width: 300px;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* Skills Content */
+
+    #SkillsFlex{
+        flex-direction: column;
+    }
+
+    #SkillsLanguages{
+        width: 100%;
+    }
+
+    #SkillsSkills{
+        width: 100%;
+    }
+
+    /* EducationContent */
+
+    #EducationGroup2{
+        height: 2100px;
+    }
+
+    #ContentBoxEducation{
+        height: 2100px;
+    }
+
+    .EducationFlexClass{
+        flex-direction: column;
+        height: 800px;
+        width: 350px;
+    }
+
+    .EducationHoverDivs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 350px;
+    }
+
+    .HoveredDivContainer{
+        flex-direction: column;
+        width: 350px;
+        height: 800px;
+    }
+
+    /* References Content */
+
+    #ReferencesText1{
+        width: 400px;
+    }
+
+    #ReferencesText2{
+        width: 400px;
+        transform: translate(0,0);
+        left: 10%;
+        text-align: left;
+    }
+
+    #ReferencesText3{
+        width: 400px;
+    }
+
+    /* Contact Content */
+
+    #ContactGroup2-1{
+        height: 750px;
+    }
+
+    #ContactGroup2-2{
+        height: 750px;
+    }
+
+    #ContactBackgroundSection img{
+        width: auto;
+        height: 100vh;
+    }
+
+    #ContactBoxLinks{
+        flex-direction: column;
+        width: 150px;
+        height: 75%;
+    }
+
+    .FormControl{
+        width: 90vw;
+    }
+
+    #ContentBoxContact2{
+        height: 750px;
+    }
+
+    #ContactInfoFlex{
+        flex-direction: column;
+    }
+
+    #GoogleMaps{
+        width: 100%;
+        height: 300px;
+    }
+
+    #LocationAndNumber{
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 0;
+        border-left: none;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        text-align: center;
+        line-height: 35px;
+    }
 
 
 
