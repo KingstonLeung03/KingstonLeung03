@@ -233,16 +233,6 @@ body, html {
     height: 436px;
 }
 
-#FooterName{
-    border-bottom: 1px solid white;
-    width: 400px;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 19%;
-    transform: translate(-50%, -50%);
-    padding: 3px;
-}
 #FooterName h1{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -252,11 +242,22 @@ body, html {
     letter-spacing: 1px;
 }
 
+#FooterName{
+    border-bottom: 1px solid white;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 19%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+}
+
 #FooterFlex {
     left: 50%;
     top: 60%;
     transform: translate(-50%, -50%);
-    position: absolute;
+    position: relative;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -838,91 +839,6 @@ body, html {
     top: calc(100vh + 1200px);
 }
 
-#FooterName{
-    border-bottom: 1px solid white;
-    width: 400px;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    top: 19%;
-    transform: translate(-50%, -50%);
-    padding: 3px;
-}
-#FooterName h1{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 37px;
-    color: white;
-    font-weight: 200;
-    letter-spacing: 1px;
-}
-
-#FooterFlex {
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 80%;
-}
-
-#FooterSocials{
-    width: 400px;
-}
-
-#FooterSocials h2{
-    margin-top: 0;
-    margin-bottom: 8px;
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 28px;
-
-}
-
-#FooterSocials img{
-    margin-right: 15px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-#FooterSocialFlex a{
-    width: min-content;
-    height: min-content;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-
-#FooterSocialFlex{
-    display: flex;
-    justify-content: center;
-    width: min-content;
-    vertical-align: middle;
-}
-
-#FooterDescription{
-    text-align: right;
-    width: 325px;
-}
-
-#FooterDescription h2{
-    margin-top: 0;
-    margin-bottom: 8px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 28px;
-}
-
-#FooterDescription a{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
 
 /* Contact Content */
 

@@ -1,5 +1,7 @@
 @media only screen and (max-width: 784px){
 
+/* NavBar */
+
     .NavBarText{
         display: none;
     }
@@ -68,8 +70,13 @@
         background-color: rgb(80, 80, 80);
         border-bottom: 2px solid #589EDE;
     }
+/* Content */
 
+    .ContentHeader{
+        top: 10%;
+    }
 
+/* Footer */
 
     #Footer{
         height: 700px;
@@ -109,7 +116,49 @@
         height: 700px;
     }
     
-    
+    #Group3{
+        height: 700px;
+    }
+
+/* Profile Content */
+
+    #ContentBoxProfile{
+        height: 1000px;
+    }
+
+    #IndexGroup2{
+        height: 1000px;
+    }
+
+    #ProfileFlex{
+        flex-direction: column;
+        top: 55%;
+        height: fit-content;
+        align-items: center;
+    }
+
+    #ProfileAboutMe {
+        width: 300px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #ProfileImage img{
+        margin-bottom: 40px;
+    }
+
+    #ProfileDetails{
+        width: 300px;
+    }
+
+    #ProfileDetails dl > div{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+
+
+
 
 
 
