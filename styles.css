@@ -525,13 +525,44 @@ body, html {
     width: 45%;
 }
 
+#ExperienceFlex3{
+    z-index: 2;
+    height: 300px;
+    top: 85%;
+    position: absolute;
+    width: 100%;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+#ExperienceFlex3 img{
+    height: 300px;
+}
+
+#ExperienceText3{
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 2px solid black;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: black;
+    width: 45%;
+}
+
+#ExperienceText3 h2{
+    margin: 0;
+}
+
 /* Skills Content */
 
 #SkillsFlex{
     width: 80%;
     display: flex;
     justify-content: space-evenly;
-    top: 30%;
+    top: 35%;
     position: absolute;
     left: 50%;
     right: 50%;
