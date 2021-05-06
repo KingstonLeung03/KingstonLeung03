@@ -166,6 +166,14 @@
 
     /* Experience Content */
 
+    #ExperienceGroup2{
+        height: 2400px;
+    }
+
+    #ContentBoxExperience{
+        height: 2400px;
+    }
+
     #ExperienceImg1{
         display: none;
     }
@@ -183,6 +191,7 @@
         transform: translateX(-50%);
         width: fit-content;
         padding: 0;
+        top: 10%;
     }
 
     #ExperienceText1{
@@ -198,7 +207,7 @@
     }
 
     #ExperienceFlex2{
-        top: 70%;
+        top: 42%;
         width: fit-content;
         height: fit-content;
         flex-direction: column;
@@ -224,6 +233,30 @@
         text-align: left;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    #ExperienceFlex3{
+        height: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+        padding: 0;
+        top: 69%;
+    }
+
+    #ExperienceText3{
+        margin-top: 30px;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-left: none;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        width: 300px;
     }
 
     /* Skills Content */

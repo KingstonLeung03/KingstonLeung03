@@ -115,6 +115,7 @@
 
     /* Exoerience Content */
 
+
     #ExperienceImg1{
         left: -70px;
     }
@@ -146,6 +147,20 @@
     }
 
     #ExperienceText2{
+        width: 40%;
+    }
+
+    #ExperienceFlex3{
+        height: 250px;
+        padding-left: 60px;
+    }
+
+    #ExperienceFlex3 img{
+        height: 250px;
+        margin-right: 60px;
+    }
+
+    #ExperienceText3{
         width: 40%;
     }
 
