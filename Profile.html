@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="backgroundimages/Favicon.png">
     <title>Kingston Leung</title>
 </head>
-<body>
+<body id="body" onload="scrollDown()" onmousewheel="stopScroll()">
 <div id="NavBar">
     <ul id="NavBarList">
         <li class="NavBarText NavBarTextActive"><a href="Profile.html">Profile</a></li>
@@ -105,6 +105,24 @@
         } else {
             menuDiv.style.display = "none";
             pleasework.style.backgroundImage = "url('backgroundimages/Hamburger.png')";
+        }
+    }
+</script>
+<script>
+    var startScroll = true;
+
+
+    function stopScroll() {
+        startScroll = false;
+        document.getElementById("body").removeAttribute("onmousewheel");
+    }
+
+    function scrollDown() {
+        if (startScroll) {
+            var targetSection = document.getElementById("ContentBoxProfile");
+            setTimeout(() => {
+                targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+            }, 1000);
         }
     }
 </script>
