@@ -313,18 +313,18 @@
     /* References Content */
 
     #ReferencesText1{
-        width: 400px;
+        width: clamp(80%, 300px, 350px);
     }
 
     #ReferencesText2{
-        width: 400px;
+        width: clamp(80%, 300px, 350px);
         transform: translate(0,0);
         left: 10%;
         text-align: left;
     }
 
     #ReferencesText3{
-        width: 400px;
+        width: clamp(80%, 300px, 350px);
     }
 
     /* Contact Content */
