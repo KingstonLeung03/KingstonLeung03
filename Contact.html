@@ -56,7 +56,7 @@
                     <form action="https://submit-form.com/ZnYKN6sK" method="post" id="ContactFormStyling">
                         <input name="name" type="text" class="FormControl" placeholder="Your Name" required>
                         <input name="email" type="email" class="FormControl" placeholder="Your Email" required>
-                        <textarea name="message" type="text" class="FormControl" placeholder="Message..." rows="7" required></textarea>
+                        <textarea name="message" type="text" class="FormControl" placeholder="Send any enquiries or messages here or through my email." rows="7" required></textarea>
                         <input type="submit" class="FormControl submit" value="Send">
                     </form>
                 </div>
@@ -127,23 +127,12 @@
     function showMenu() {
         var menuDiv = document.getElementById("PhoneViewNav");
         var pleasework = document.getElementById("HamburgerIMG");
-        var itwork = document.getElementById("Hamburger")
-        console.log(getComputedStyle(menuDiv).display);
-        console.log(getComputedStyle(pleasework).backgroundImage);
         if (getComputedStyle(menuDiv).display == "none") {
             menuDiv.style.display = "block";
             pleasework.style.backgroundImage = "url('backgroundimages/WhiteX.png')";
-            pleasework.style.height = "30px"
-            pleasework.style.width = "30px"
-            itwork.style.width = "30px"
-            itwork.style.height = "30px"
         } else {
             menuDiv.style.display = "none";
             pleasework.style.backgroundImage = "url('backgroundimages/Hamburger.png')";
-            pleasework.style.height = "40px"
-            pleasework.style.width = "40px"
-            itwork.style.width = "40px"
-            itwork.style.height = "40px"
         }
     }
 </script>

@@ -124,23 +124,12 @@
     function showMenu() {
         var menuDiv = document.getElementById("PhoneViewNav");
         var pleasework = document.getElementById("HamburgerIMG");
-        var itwork = document.getElementById("Hamburger")
-        console.log(getComputedStyle(menuDiv).display);
-        console.log(getComputedStyle(pleasework).backgroundImage);
         if (getComputedStyle(menuDiv).display == "none") {
             menuDiv.style.display = "block";
             pleasework.style.backgroundImage = "url('backgroundimages/WhiteX.png')";
-            pleasework.style.height = "30px"
-            pleasework.style.width = "30px"
-            itwork.style.width = "30px"
-            itwork.style.height = "30px"
         } else {
             menuDiv.style.display = "none";
             pleasework.style.backgroundImage = "url('backgroundimages/Hamburger.png')";
-            pleasework.style.height = "40px"
-            pleasework.style.width = "40px"
-            itwork.style.width = "40px"
-            itwork.style.height = "40px"
         }
     }
 </script>
