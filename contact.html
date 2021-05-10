@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 785px) and (max-width: 980px)" href="tabletstyles.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 784px)" href="phonestyles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="backgroundimages/Favicon.png">
+    <title>Kingston Leung</title>
+</head>
+<body  id="body" onload="scrollDown()" onmousewheel="stopScroll()">
+<div id="NavBar">
+    <ul id="NavBarList">
+        <li class="NavBarText"><a href="index.html">Profile</a></li>
+        <li class="NavBarText"><a href="experience.html">Experience</a></li>
+        <li class="NavBarText"><a href="skills.html">Skills</a></li>
+        <li class="NavBarText"><a href="education.html">Education</a></li>
+        <li class="NavBarText"><a href="references.html">References</a></li>
+        <li class="NavBarText NavBarTextActive"><a href="contact.html">Contact</a></li>
+        <li id="Hamburger" onclick="showMenu()">
+            <div id="HamburgerIMG"></div>
+        </li>
+    </ul>
+</div>
+<div id="PhoneViewNav">
+    <ul id="pNavBarList">
+        <li class="pNavBarText"><a href="index.html">Profile</a></li>
+        <li class="pNavBarText"><a href="experience.html">Experience</a></li>
+        <li class="pNavBarText"><a href="skills.html">Skills</a></li>
+        <li class="pNavBarText"><a href="education.html">Education</a></li>
+        <li class="pNavBarText"><a href="references.html">References</a></li>
+        <li class="pNavBarText pNavBarTextActive"><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+<div class="parallax">
+    <div class="parallax__group" id="Group1">
+        <div id="TitleSection" class="parallax__layer parallax__layer--back">
+            <img src="backgroundimages/ContactBackground1.png" id="TitleSectionImage"></img>
+        </div>
+        <div class="parallax__layer parallax__layer--base">
+            <div id="TitleSectionArrow"></div>
+        </div>
+    </div>
+    <div class="parallax__group" id="ContactGroup2">
+        <div id="ContentBoxContact" class="parallax__layer parallax__layer--base"> 
+            <div class="ContentHeader">
+                <h1>Contact</h1>
+            </div>
+            <div id="ContactFormImageFlex">
+                <div id="ContactForm">
+                    <form action="https://submit-form.com/ZnYKN6sK" method="post" id="ContactFormStyling">
+                        <input name="name" type="text" class="FormControl" placeholder="Your Name" required>
+                        <input name="email" type="email" class="FormControl" placeholder="Your Email" required>
+                        <textarea name="message" type="text" class="FormControl" placeholder="Send any enquiries or messages here or through my email." rows="7" required></textarea>
+                        <input type="submit" class="FormControl submit" value="Send">
+                    </form>
+                </div>
+                <div id="ContactImage">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax__group" id="ContactGroup2-1">
+        <div id="ContactBackgroundSection" class="parallax__layer parallax__layer--back">
+            <img src="backgroundimages/ContactBackground2.png"></img>
+        </div>
+        <div id="ContactBoxLinks" class="parallax__layer parallax__layer--base">
+            <div class="ContactBoxCircle">
+                <a href="https://www.instagram.com/kingston.leung_/" target="_blank"><img src="backgroundimages/Instagram.png" id="ContactIMG1"></img></a>
+            </div>
+            <div class="ContactBoxCircle">
+                <a href="mailto:l.kingston03@gmail.com" target="_blank"><img src="backgroundimages/Mail.png" id="ContactIMG2"></img></a>
+            </div>
+            <div class="ContactBoxCircle">
+                <a href="https://vm.tiktok.com/ZSnYXYd1/" target="_blank"><img src="backgroundimages/Tiktok.png" id="ContactIMG3"></img></a>
+            </div>
+        </div>
+    </div>
+    <div class="parallax_group" id="ContactGroup2-2">
+        <div id="ContentBoxContact2" class="parallax__layer parallax__layer--base">
+            <div id="ContactInfoFlex">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8661.174030217942!2d174.70384440446932!3d-36.728275225876565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d3b07b28390d9%3A0xba974edbe224773f!2sFields%20Cafe!5e0!3m2!1sen!2snz!4v1619934734896!5m2!1sen!2snz" allowfullscreen="" loading="lazy" id="GoogleMaps"></iframe>
+                <dl id="LocationAndNumber">
+                    <div>
+                        <dt id="ContactBold">Address:</dt>
+                        <dd>xx Somename Ave</dd>
+                        <dd>Suburb</dd>
+                        <dd>0123</dd>
+                    </div>
+                    <div>
+                        <dt id="ContactBold">Phone Number:</dt>
+                        <dd>012345678</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="parallax__group" id="Group3">
+        <div id="Footer">
+            <div id="FooterName"><h1>Kingston Leung</h1></div>
+            <div id="FooterFlex">
+                <div id="FooterSocials">
+                    <h2>Social Media & Contacts:</h2>
+                    <div id="FooterSocialFlex">
+                        <a href="https://www.instagram.com/kingston.leung_/" target="_blank"><img src="backgroundimages/Instagram.png"
+                                id="FooterImg1"></img></a>
+                        <a href="mailto:l.kingston03@gmail.com" target="_blank"><img src="backgroundimages/Mail.png"
+                                id="FooterImg2"></img></a>
+                        <a href="https://vm.tiktok.com/ZSnYXYd1/" target="_blank"><img src="backgroundimages/Tiktok.png"
+                                id="FooterImg3"></img></a>
+                    </div>
+                </div>
+                <div id="FooterDescription">
+                    <h2>Project by Kingston Leung</h2>
+                    <a>Just a website to advance my front/back end development skills.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function showMenu() {
+        var menuDiv = document.getElementById("PhoneViewNav");
+        var pleasework = document.getElementById("HamburgerIMG");
+        if (getComputedStyle(menuDiv).display == "none") {
+            menuDiv.style.display = "block";
+            pleasework.style.backgroundImage = "url('backgroundimages/WhiteX.png')";
+        } else {
+            menuDiv.style.display = "none";
+            pleasework.style.backgroundImage = "url('backgroundimages/Hamburger.png')";
+        }
+    }
+</script>
+<script>
+    var startScroll = true;
+
+
+    function stopScroll() {
+        startScroll = false;
+        document.getElementById("body").removeAttribute("onmousewheel");
+    }
+
+    function scrollDown() {
+        if (startScroll) {
+            var targetSection = document.getElementById("ContentBoxContact");
+            setTimeout(() => {
+                targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+            }, 1000);
+        }
+    }
+</script>
+</body>
+</html>
