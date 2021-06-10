@@ -141,7 +141,6 @@
     #ProfileFlex{
         flex-direction: column;
         top: 55%;
-        top: 320px;
         height: fit-content;
         align-items: center;
     }
